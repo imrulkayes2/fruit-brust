@@ -18,6 +18,9 @@
                     colors: {
                         'clifford': '#da373d',
                         'btn-banner': '#F85559',
+                        padding: {
+                            'pt-nagative-8': '-2rem',
+                        }
                     }
                 }
             }
@@ -32,7 +35,7 @@
 <header class="mx-44">
     <!-- navbar section -->
     <nav class="my-10">
-        <div class="navbar rounded-2xl max-w-auto bg-red-400">
+        <div class="navbar rounded-2xl w-auto bg-red-400">
             <div class="navbar-start hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
@@ -60,10 +63,11 @@
                 </div>
                 <div class="flex items-center">
                     <img src="images/logo.png" alt="">
-                    <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                    <a class="btn btn-ghost normal-case text-xl text-white">Fruit Burst</a>
                 </div>
-                <div class="form-control">
-                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                <!-- Search in navbar -->
+                <div class="md:rounded w-auto form-control">
+                    <input type="text" placeholder="Search" class="input input-bordered" />
                 </div>
             </div>
         </div>
@@ -142,16 +146,28 @@
                 </div>
             </div>
         </div>
-        <div class="flex bg-white pt--16 ">
-            <img src="images/./fruit1.png" alt="">
-            <img src="images/./fruit2.png" alt="">
-            <img src="images/fruit3.png" alt="">
-            <img src="images/./fruit4.png" alt="">
+        <div class="pt-nagative-8">
+            <div class="lg:flex bg-white">
+                <img src="images/./fruit1.png" alt="">
+                <img src="images/./fruit2.png" alt="">
+                <img src="images/fruit3.png" alt="">
+                <img src="images/./fruit4.png" alt="">
+            </div>
         </div>
     </div>
 </header>
 <main>
+    <!-- Deal of the day Section -->
+    <div>
+        <div>
+            <h2>Deal of the day</h2>
+            <p>Deal of the day</p>
+        </div>
+        <!-- Cowon down part -->
+        <div>
 
+        </div>
+    </div>
 </main>
 <footer>
 
