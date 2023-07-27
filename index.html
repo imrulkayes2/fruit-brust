@@ -146,8 +146,8 @@
                 </div>
             </div>
         </div>
-        <div class="pt-nagative-8">
-            <div class="lg:flex bg-white">
+        <div class=" bg-white -mt-8">
+            <div class="flex">
                 <img src="images/./fruit1.png" alt="">
                 <img src="images/./fruit2.png" alt="">
                 <img src="images/fruit3.png" alt="">
@@ -156,16 +156,46 @@
         </div>
     </div>
 </header>
-<main>
+<main class="mx-44 py-16">
     <!-- Deal of the day Section -->
-    <div>
+    <div class="flex flex-col lg:flex-row text-left">
         <div>
-            <h2>Deal of the day</h2>
-            <p>Deal of the day</p>
+            <h2 class=" text-black text-5xl font-extrabold">Deal of the day</h2>
+            <p class="font-medium text-sm py-1.5 gap-x-12 text-justify">Contrary to popular belief, is not simply
+                random text. It has
+                roots in
+                a
+                piece of classical Latin
+                literature from 45 BC, making it over 2000 years old.</p>
         </div>
-        <!-- Cowon down part -->
+        <!-- Countdown part -->
         <div>
-
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>
+                    </span>
+                    days
+                </div>
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                    </span>
+                    hours
+                </div>
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                    </span>
+                    min
+                </div>
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:30;"></span>
+                    </span>
+                    sec
+                </div>
+            </div>
         </div>
     </div>
 </main>
